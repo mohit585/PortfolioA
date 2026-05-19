@@ -81,7 +81,7 @@ function Projects() {
 
               {/* Bottom — Links */}
               <div className="flex items-center gap-4 pt-4 border-t border-white/10">
-                
+                <a
                   href={project.liveUrl}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -94,7 +94,7 @@ function Projects() {
                   </svg>
                   Live Demo
                 </a>
-                
+                <a
                   href={project.githubUrl}
                   target="_blank"
                   rel="noopener noreferrer"

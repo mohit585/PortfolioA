@@ -21,7 +21,7 @@ function Hero() {
         <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-4 leading-tight">
           Hi, I'm{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-400">
-            John Doe
+            MOHIT KUMAR
           </span>
         </h1>
 
@@ -38,13 +38,13 @@ function Hero() {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          
+          <a
             href="#projects"
             className="bg-primary hover:bg-violet-700 text-white font-semibold px-8 py-3 rounded-full transition-colors duration-200 w-full sm:w-auto text-center"
           >
             View My Work
           </a>
-          
+          <a
             href="#contact"
             className="border border-primary text-primary hover:bg-primary hover:text-white font-semibold px-8 py-3 rounded-full transition-colors duration-200 w-full sm:w-auto text-center"
           >

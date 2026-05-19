@@ -16,14 +16,14 @@ function Navbar() {
 
         {/* Logo / Name */}
         <a href="#hero" className="text-xl font-bold text-white tracking-tight">
-          John<span className="text-primary">.</span>
+          MOHIT KUMAR<span className="text-primary">.</span>
         </a>
 
         {/* Desktop Links */}
         <ul className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <li key={link.label}>
-              
+              <a
                 href={link.href}
                 className="text-slate-400 hover:text-primary transition-colors duration-200 font-medium"
               >
@@ -53,7 +53,7 @@ function Navbar() {
         <ul className="md:hidden bg-darkCard border-t border-white/10 px-6 py-4 flex flex-col gap-4">
           {navLinks.map((link) => (
             <li key={link.label}>
-              
+              <a
                 href={link.href}
                 onClick={() => setMenuOpen(false)}
                 className="text-slate-400 hover:text-primary transition-colors duration-200 font-medium block"

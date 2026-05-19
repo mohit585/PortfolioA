@@ -48,9 +48,9 @@ function About() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-2 bg-primary hover:bg-violet-700 text-white font-semibold px-6 py-3 rounded-full transition-colors duration-200"
-            >
-              Download Resume
-            </a>
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="inline-block mt-2 bg-primary hover:bg-violet-700 text-white font-semibold px-6 py-3 rounded-full transition-colors duration-200">
+  Download Resume
+</a>
           </div>
 
           {/* Right — Info Card */}
