@@ -9,11 +9,11 @@ const projects = [
     featured: true,
   },
   {
-    title: "Task Manager",
+    title: "patch play",
     description:
-      "A drag-and-drop task management app with real-time updates, user authentication, and team collaboration features.",
+      "A therapy app for eye in which we provide therapy for eye through game where user can monitor there progress.",
     tags: ["React", "Firebase", "Tailwind CSS"],
-    liveUrl: "https://yourapp.com",
+    liveUrl: " https://patchy-play.vercel.app",
     githubUrl: "https://github.com/yourusername/taskmanager",
     featured: false,
   },

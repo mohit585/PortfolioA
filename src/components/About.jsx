@@ -1,10 +1,10 @@
 function About() {
   const facts = [
-    { label: "Name", value: "John Doe" },
+    { label: "Name", value: "MOHIT KUMAR" },
     { label: "Role", value: "Full Stack Developer" },
-    { label: "Location", value: "New York, USA" },
+    { label: "Location", value: "NEW DELHI, INDIA" },
     { label: "Experience", value: "3+ Years" },
-    { label: "Education", value: "B.Sc. Computer Science" },
+    { label: "Education", value: "BCA Computer Science" },
     { label: "Available", value: "Yes — Open to work" },
   ];
 
@@ -26,7 +26,7 @@ function About() {
           {/* Left — Text */}
           <div className="space-y-5 text-slate-400 text-lg leading-relaxed">
             <p>
-              Hey! I'm <span className="text-white font-semibold">John Doe</span>,
+              Hey! I'm <span className="text-white font-semibold">MOHIT KUMAR</span>,
               a passionate Full Stack Developer who loves building things for the web.
               I enjoy creating elegant solutions to complex problems.
             </p>
